@@ -50,7 +50,7 @@ export default function Auth() {
         <div className="flex justify-center">
           <div className="bg-black bg-opacity-70 px-16 py-16 self-center mt-2 lg:w-2/5 lg:max-w-lg rounded-md w-full">
             <h2 className="text-white text-4xl mb-8 font-semi-bold">
-              {hasAccount ? "Sign in" : "Register"} just test
+              {hasAccount ? "Sign in" : "Register"}
             </h2>
             <div className="flex flex-col gap-4">
               {!hasAccount && (
